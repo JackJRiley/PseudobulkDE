@@ -9,7 +9,7 @@ then tests with standard bulk RNA-seq methods.
 ## Install
 
 ```r
-remotes::install_github("JackRiley/PseudobulkDE")
+remotes::install_github("JackJRiley/PseudobulkDE")
 ```
 
 ## Usage
