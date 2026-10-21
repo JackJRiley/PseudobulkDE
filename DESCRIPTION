@@ -1,0 +1,22 @@
+Package: PseudobulkDE
+Type: Package
+Title: Pseudobulk Differential Expression from Seurat Objects
+Version: 0.1.0
+Authors@R: person("Jack", "Riley", email = "jackjriley1@gmail.com",
+    role = c("aut", "cre"))
+Description: Aggregates raw counts from a 'Seurat' object into pseudobulk
+    samples defined by metadata columns (e.g. condition and replicate),
+    optionally within each cell type, and tests for differential expression
+    between two conditions using 'DESeq2' or 'edgeR'.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports:
+    DESeq2,
+    edgeR,
+    Matrix,
+    SeuratObject (>= 5.0.0),
+    stats
+biocViews:
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.1
